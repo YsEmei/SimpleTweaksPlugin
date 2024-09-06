@@ -7,10 +7,9 @@ using AlignmentType = FFXIVClientStructs.FFXIV.Component.GUI.AlignmentType;
 
 namespace SimpleTweaksPlugin.Tweaks.UiAdjustment; 
 
+[TweakName("Cleaner World Visit Menu")]
+[TweakDescription("Cleans up the world visit menu and shows your current location in order on the list.")]
 public unsafe class ImprovedWorldVisit : UiAdjustments.SubTweak {
-
-    public override string Name => "Cleaner World Visit Menu";
-    public override string Description => "Cleans up the world visit menu and shows your current location in order on the list.";
 
     protected override void Enable() {
         Common.FrameworkUpdate += FrameworkOnOnUpdateEvent;
