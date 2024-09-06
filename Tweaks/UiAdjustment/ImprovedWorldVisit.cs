@@ -2,6 +2,7 @@
 using System.Runtime.InteropServices;
 using FFXIVClientStructs.FFXIV.Client.Graphics;
 using FFXIVClientStructs.FFXIV.Component.GUI;
+using SimpleTweaksPlugin.TweakSystem;
 using SimpleTweaksPlugin.Utility;
 using AlignmentType = FFXIVClientStructs.FFXIV.Component.GUI.AlignmentType;
 
